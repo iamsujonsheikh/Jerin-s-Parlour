@@ -1,8 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import BeautiQueen from "../../../assets/images/banner-queen.png";
-import Lottie from "lottie-react";
-import Parlour from "../../../assets/animate/banner.json";
+import beautyQueen from "/public/assets/images/banner-queen.png";
 import MaxWidthWrapper from '@/app/lib/MaxWidthWrapper';
 
 const Banner = () => {
@@ -25,7 +23,7 @@ const Banner = () => {
 
                     <div className='md:w-[400px]'>
                         <Image
-                            src={BeautiQueen}
+                            src={beautyQueen}
                             alt='Banner image'
                             className='rounded'
                         />

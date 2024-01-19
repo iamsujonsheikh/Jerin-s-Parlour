@@ -1,6 +1,6 @@
 import MaxWidthWrapper from '@/app/lib/MaxWidthWrapper'
 import Image from 'next/image'
-import ProfessionImage from "../../../assets/images/facewasing.png";
+import professionImage from "/public/assets/images/facewasing.png";
 
 const Profession = () => {
     return (
@@ -10,7 +10,7 @@ const Profession = () => {
                     {/* image section  */}
                     <div>
                         <Image
-                            src={ProfessionImage}
+                            src={professionImage}
                             alt='banner image'
                             width={500}
                             height={500}

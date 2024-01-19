@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import logo from "../../../assets/logo.png"
+import logo from "/public/assets/logo.png";
 import { IoPowerOutline } from "react-icons/io5";
 import DashBordnavLinks from './DashBoardNavLinks';
 import Image from 'next/image';

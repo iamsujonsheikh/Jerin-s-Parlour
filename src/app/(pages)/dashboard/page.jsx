@@ -1,5 +1,7 @@
 import Image from 'next/image'
-import User from "../../../assets/images/user1.png"
+import user from "/public/assets/images/user1.png";
+
+
 const DashBoard = () => {
     return (
         <main>
@@ -9,7 +11,7 @@ const DashBoard = () => {
                     <h1 className='text-center text-2xl text-pink-500 font-bold'>Wellcome to Jerin,s Parlour</h1>
                     <div className='flex justify-center items-center'>
                         <Image
-                            src={User}
+                            src={user}
                             alt='user picture'
                             className='w-20 h-20 border-4 border-pink-500 rounded-full hover:grayscale hover:scale-110 duration-500'
                         />

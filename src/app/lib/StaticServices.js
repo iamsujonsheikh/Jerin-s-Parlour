@@ -1,6 +1,6 @@
-import skin from "../../assets/icons/skin.png";
-import hairColor from "../../assets/icons/hair-color.png";
-import age from "../../assets/icons/age.png";
+import skin from "/public/assets/icons/skin.png";
+import hairColor from "/public/assets/icons/hair-color.png";
+import age from "/public/assets/icons/age.png";
 
 const staticServices = [
     {

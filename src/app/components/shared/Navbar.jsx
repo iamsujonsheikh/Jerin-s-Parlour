@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { AiOutlineMenuUnfold, AiOutlineClose } from "react-icons/ai";
-import logo from "../../../assets/logo.png";
+import logo from "/public/assets/logo.png";
 import links from '@/app/lib/NavLinks';
 import { usePathname } from 'next/navigation';
 import clsx from 'clsx';
