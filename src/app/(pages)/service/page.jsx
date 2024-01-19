@@ -1,4 +1,4 @@
-import Services from '@/app/components/services/services'
+import Services from '@/app/components/services/services.jsx'
 import NavBar from '@/app/components/shared/Navbar'
 import MaxWidthWrapper from '@/app/lib/MaxWidthWrapper'
 
