@@ -1,6 +1,6 @@
-import Services from '@/app/components/services/services.jsx'
-import NavBar from '@/app/components/shared/Navbar'
-import MaxWidthWrapper from '@/app/lib/MaxWidthWrapper'
+import Services from '@/app/components/services/services';
+import NavBar from '@/app/components/shared/Navbar';
+import MaxWidthWrapper from '@/app/lib/MaxWidthWrapper';
 
 
 const Service = () => {
