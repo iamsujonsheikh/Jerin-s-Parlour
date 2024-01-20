@@ -1,3 +1,4 @@
+import Pinkbtn from '@/app/components/Pinkbtn';
 import React from 'react';
 import { IoCloudUploadOutline } from "react-icons/io5";
 
@@ -39,7 +40,7 @@ const AddService = () => {
                             </label>
 
 
-                            <button className='py-2 px-6 bg-pink-500 rounded text-white'>Submit</button>
+                            <Pinkbtn label="Submit" />
                         </div>
                     </form>
                 </div>

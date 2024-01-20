@@ -67,7 +67,7 @@ const NavBar = () => {
                                 </Link>
                             ))}
 
-                            <Pinkbtn title="Login" href="/login" />
+                            <Pinkbtn label="Login" href="/login" />
                         </div>
                     )}
                 </div>

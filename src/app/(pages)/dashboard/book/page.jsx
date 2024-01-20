@@ -2,6 +2,7 @@ import { Radio, RadioGroup } from '@nextui-org/react'
 import Image from 'next/image'
 import card from "/public/assets/icons/card.png";
 import paypal from "/public/assets/icons/paypal.png";
+import Pinkbtn from '@/app/components/Pinkbtn';
 
 
 const Book = () => {
@@ -65,7 +66,7 @@ const Book = () => {
                         <div className='flex justify-between items-center py-2'>
                             <p className='text-sm md:text-medium text-cyan-500'>Service charged will be $100</p>
 
-                            <button className='py-2 px-6 bg-pink-500 rounded text-white'>Pay</button>
+                            <Pinkbtn label="Pay" />
                         </div>
                     </form>
                 </div>

@@ -1,3 +1,4 @@
+import Pinkbtn from '@/app/components/Pinkbtn'
 import React from 'react'
 
 const Review = () => {
@@ -19,7 +20,7 @@ const Review = () => {
                             required
                         ></textarea>
 
-                        <button className='py-2 px-6 bg-pink-500 rounded text-white'>Submit</button>
+                        <Pinkbtn label='Submit' />
                     </form>
                 </div>
             </section>

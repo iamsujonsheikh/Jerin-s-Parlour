@@ -32,12 +32,9 @@ const Services = () => {
 
                 {/* button section  */}
                 <div className='flex justify-center items-center'>
-                    <button className='py-2 px-4 text-slate-100 rounded-md bg-pink-500'>
-                        <Link href="/service">Explore more</Link>
-                    </button>
+                    <Pinkbtn label="Explore more" href="/service" />
                 </div>
 
-                {/* <Pinkbtn title="Explore more" href="/service" /> */}
             </MaxWidthWrapper>
         </main>
     );

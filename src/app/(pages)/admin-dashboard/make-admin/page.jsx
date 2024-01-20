@@ -1,3 +1,4 @@
+import Pinkbtn from '@/app/components/Pinkbtn';
 import React from 'react'
 
 const MakeAdmin = () => {
@@ -12,7 +13,8 @@ const MakeAdmin = () => {
                             <input type="text" placeholder='someone@gmail.com' className='rounded-md py-2 px-2 border w-full' />
                         </div>
 
-                        <button className='py-2 px-6 bg-pink-500 rounded text-white'>Submit</button>
+
+                        <Pinkbtn label="Submit" />
                     </form>
                 </div>
             </section>

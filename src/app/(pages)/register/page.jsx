@@ -2,6 +2,7 @@ import NavBar from '@/app/components/shared/Navbar'
 import Link from 'next/link'
 import { FcGoogle } from "react-icons/fc";
 import { FaFacebook } from "react-icons/fa";
+import Pinkbtn from '@/app/components/Pinkbtn';
 
 const Register = () => {
     return (
@@ -43,12 +44,8 @@ const Register = () => {
                             />
                         </div>
 
-                        <button
-                            type="submit"
-                            className="w-full bg-pink-500 text-white py-2 rounded-md"
-                        >
-                            Create an account
-                        </button>
+                        <Pinkbtn label='Create an account' width='w-full' />
+
                         <p className='text-slate-700 py-2 text-sm'>Already have an account? <Link className='text-blue-500 hover:underline' href="/login">Login</Link></p><br />
 
                         <hr /><br />

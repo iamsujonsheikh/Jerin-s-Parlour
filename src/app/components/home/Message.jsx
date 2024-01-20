@@ -2,6 +2,7 @@
 
 import MaxWidthWrapper from '@/app/lib/MaxWidthWrapper'
 import React from 'react'
+import Pinkbtn from '../Pinkbtn'
 
 const Message = () => {
     return (
@@ -86,12 +87,15 @@ const Message = () => {
                                 ></textarea>
                             </div>
 
-                            <button
+                            {/* <button
                                 type="submit"
-                                className="w-full bg-pink-500 text-white p-2 rounded hover:bg-pink-600 focus:outline-none focus:ring focus:border-blue-300"
+                                className="w-full bg-pink-500 text-slate-100 p-2 rounded"
                             >
                                 Send Message
-                            </button>
+                            </button> */}
+
+                            <Pinkbtn label="Send message" width='w-full' />
+
                         </form>
                     </div>
                 </div>

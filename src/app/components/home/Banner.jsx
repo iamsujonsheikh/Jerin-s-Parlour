@@ -19,7 +19,7 @@ const Banner = () => {
                             Unleash your beauty at our salon. Tailored treatments, <br /> expert care—because every woman deserves to feel stunning. <br /> Elevate your confidence and embrace the allure. <br /> Beauty redefined, just for you.
                         </p><br />
 
-                        {/* <Pinkbtn title="Get on Appoinment" /> */}
+                        <Pinkbtn label="Get on Appoinment" />
                     </div>
 
                     <div className='md:w-[400px]'>

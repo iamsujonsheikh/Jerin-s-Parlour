@@ -2,6 +2,7 @@ import NavBar from '@/app/components/shared/Navbar'
 import Link from 'next/link'
 import { FcGoogle } from "react-icons/fc";
 import { FaFacebook } from "react-icons/fa";
+import Pinkbtn from '@/app/components/Pinkbtn';
 
 const Login = () => {
     return (
@@ -25,12 +26,9 @@ const Login = () => {
                                 placeholder="********"
                             />
                         </div>
-                        <button
-                            type="submit"
-                            className="w-full bg-pink-500 text-white py-2 rounded-md"
-                        >
-                            Login
-                        </button>
+
+                        <Pinkbtn label="Login" width="w-full" />
+
                         <p className='text-slate-700 py-2 text-sm'>New to here? <Link className='text-blue-500 hover:underline' href="/register">Register</Link></p><br />
 
                         <hr /><br />
