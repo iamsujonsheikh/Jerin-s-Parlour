@@ -2,6 +2,7 @@ import Link from 'next/link';
 import MaxWidthWrapper from '@/app/lib/MaxWidthWrapper';
 import Image from 'next/image';
 import staticServices from '@/app/lib/StaticServices';
+import Pinkbtn from '../Pinkbtn';
 
 const Services = () => {
     return (
@@ -35,6 +36,8 @@ const Services = () => {
                         <Link href="/service">Explore more</Link>
                     </button>
                 </div>
+
+                {/* <Pinkbtn title="Explore more" href="/service" /> */}
             </MaxWidthWrapper>
         </main>
     );

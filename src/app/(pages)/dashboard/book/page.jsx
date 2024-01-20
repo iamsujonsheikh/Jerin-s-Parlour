@@ -9,7 +9,7 @@ const Book = () => {
         <main>
             <section className='py-10'>
                 <div className='flex justify-start items-center'>
-                    <form className='bg-pink-50 w-[500px] p-10 shadow space-y-4'>
+                    <form className='bg-pink-50 w-[500px] p-10 shadow space-y-4 rounded'>
                         <input type="text" placeholder='Enter user card name' className='rounded-md py-2 px-2 border w-full' />
 
                         <input type="email" placeholder='Enter user mail address' className='rounded-md py-2 px-2 border w-full' />

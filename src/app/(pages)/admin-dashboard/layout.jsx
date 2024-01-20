@@ -1,12 +1,12 @@
-import DashBoardSideNav from "@/app/components/dashBoard/SideNav";
+import AdminDashBoardSideNav from "@/app/components/adminDashBoard/AdminDashBoardSideNav";
 import { User } from "@nextui-org/react";
 
 
-const DashBoardLayout = ({ children }) => {
+const AdminDashBoardLayout = ({ children }) => {
     return (
         <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
             <div className="w-full flex-none md:w-60">
-                <DashBoardSideNav />
+                <AdminDashBoardSideNav />
             </div>
 
             <div className="flex-grow p-3 md:overflow-y-auto md:p-12">
@@ -33,4 +33,4 @@ const DashBoardLayout = ({ children }) => {
         </div>
     );
 }
-export default DashBoardLayout;
+export default AdminDashBoardLayout;

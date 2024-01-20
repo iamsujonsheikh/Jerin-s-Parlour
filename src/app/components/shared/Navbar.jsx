@@ -9,6 +9,7 @@ import links from '@/app/lib/NavLinks';
 import { usePathname } from 'next/navigation';
 import clsx from 'clsx';
 import MaxWidthWrapper from '@/app/lib/MaxWidthWrapper';
+import Pinkbtn from '../Pinkbtn';
 
 
 const NavBar = () => {
@@ -65,9 +66,8 @@ const NavBar = () => {
                                     <p className='text-lg text-center border-b-2 py-2 hover:bg-blue-100 rounded'>{link.name}</p>
                                 </Link>
                             ))}
-                            <div className='flex justify-center items-center'>
-                                <Link href="/login" className='w-full text-center py-2 rounded bg-pink-500 text-medium text-slate-100 font-semibold'>Login</Link>
-                            </div>
+
+                            <Pinkbtn title="Login" href="/login" />
                         </div>
                     )}
                 </div>

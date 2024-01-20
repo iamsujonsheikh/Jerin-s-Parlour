@@ -1,23 +1,27 @@
 "use client"
 
-import { MdAddShoppingCart, MdListAlt, MdOutlineRateReview } from "react-icons/md";
+import { GoListOrdered } from "react-icons/go";
+import { MdAddShoppingCart } from "react-icons/md";
+import { IoPersonAddOutline } from "react-icons/io5";
 import { FaHome } from "react-icons/fa";
+import { GrBusinessService } from "react-icons/gr";
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import clsx from 'clsx';
 
 const links = [
-    { name: 'Home', href: '/dashboard', icon: FaHome },
+    { name: 'Home', href: '/admin-dashboard', icon: FaHome },
     {
-        name: 'Book',
-        href: '/dashboard/book',
-        icon: MdAddShoppingCart,
+        name: 'Order list',
+        href: '/admin-dashboard/order-list',
+        icon: GoListOrdered,
     },
-    { name: 'Booking list', href: '/dashboard/booking-list', icon: MdListAlt },
-    { name: 'Review', href: '/dashboard/review', icon: MdOutlineRateReview },
+    { name: 'Add service', href: '/admin-dashboard/add-service', icon: MdAddShoppingCart },
+    { name: 'Make admin', href: '/admin-dashboard/make-admin', icon: IoPersonAddOutline },
+    { name: 'Manage service', href: '/admin-dashboard/manage-services', icon: GrBusinessService },
 ];
 
-const DashBordnavLinks = () => {
+const AdminDashBordnavLinks = () => {
     const pathname = usePathname();
     return (
         <>
@@ -42,4 +46,4 @@ const DashBordnavLinks = () => {
         </>
     );
 };
-export default DashBordnavLinks;
+export default AdminDashBordnavLinks;
