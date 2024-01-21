@@ -1,4 +1,4 @@
-import MaxWidthWrapper from '@/app/lib/MaxWidthWrapper'
+import MaxWidthWrapper from '../../lib/MaxWidthWrapper';
 import Image from 'next/image'
 import professionImage from "/public/assets/images/facewasing.png";
 

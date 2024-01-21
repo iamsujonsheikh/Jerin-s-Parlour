@@ -1,4 +1,4 @@
-import DashBoardSideNav from "@/app/components/dashBoard/SideNav";
+import DashBoardSideNav from "../../components/dashBoard/SideNav";
 import { User } from "@nextui-org/react";
 
 

@@ -1,5 +1,5 @@
-import MaxWidthWrapper from '@/app/lib/MaxWidthWrapper'
-import testmonialUsers from '@/app/lib/TestmonialUser'
+import MaxWidthWrapper from '../../lib/MaxWidthWrapper';
+import testmonialUsers from '../../lib/TestmonialUser';
 import Image from 'next/image'
 import React from 'react'
 

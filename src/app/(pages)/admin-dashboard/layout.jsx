@@ -1,5 +1,5 @@
-import AdminDashBoardSideNav from "@/app/components/adminDashBoard/AdminDashBoardSideNav";
 import { User } from "@nextui-org/react";
+import AdminDashBoardSideNav from "../../components/adminDashBoard/AdminDashBoardSideNav";
 
 
 const AdminDashBoardLayout = ({ children }) => {

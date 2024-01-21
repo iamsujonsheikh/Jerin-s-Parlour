@@ -1,7 +1,6 @@
-import Link from 'next/link';
-import MaxWidthWrapper from '@/app/lib/MaxWidthWrapper';
+import MaxWidthWrapper from '../../lib/MaxWidthWrapper';
 import Image from 'next/image';
-import staticServices from '@/app/lib/StaticServices';
+import staticServices from '../../lib/StaticServices';
 import Pinkbtn from '../Pinkbtn';
 
 const Services = () => {

@@ -1,4 +1,4 @@
-import moreServices from '@/app/lib/MoreServices';
+import moreServices from '../../lib/MoreServices';
 import Image from 'next/image'
 
 

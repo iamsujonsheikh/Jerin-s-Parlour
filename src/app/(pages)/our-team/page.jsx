@@ -3,9 +3,9 @@ import two from "/public/assets/images/two.jpg";
 import three from "/public/assets/images/three.jpg";
 import four from "/public/assets/images/four.jpg";
 import Image from "next/image";
-import MaxWidthWrapper from "@/app/lib/MaxWidthWrapper";
-import Footer from "@/app/components/shared/Footer";
-import NavBar from "@/app/components/shared/Navbar";
+import MaxWidthWrapper from "../../lib/MaxWidthWrapper";
+import Footer from "../../components/shared/Footer";
+import NavBar from "../../components/shared/Navbar";
 
 
 const teamMembers = [

@@ -1,8 +1,8 @@
-import NavBar from '@/app/components/shared/Navbar'
+import NavBar from '../../components/shared/Navbar';
 import Link from 'next/link'
 import { FcGoogle } from "react-icons/fc";
 import { FaFacebook } from "react-icons/fa";
-import Pinkbtn from '@/app/components/Pinkbtn';
+import Pinkbtn from '../../components/Pinkbtn';
 
 const Login = () => {
     return (

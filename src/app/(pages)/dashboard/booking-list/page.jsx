@@ -1,4 +1,4 @@
-import staticServices from "@/app/lib/StaticServices"
+import staticServices from "../../../lib/StaticServices"
 import Image from "next/image"
 
 const page = () => {

@@ -1,6 +1,6 @@
 "use client"
 
-import MaxWidthWrapper from '@/app/lib/MaxWidthWrapper'
+import MaxWidthWrapper from '../../lib/MaxWidthWrapper'
 import React from 'react'
 import Pinkbtn from '../Pinkbtn'
 
