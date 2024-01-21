@@ -30,7 +30,7 @@ const ContactUs = () => {
                 <div className="container mx-auto my-10 p-8 bg-white shadow rounded-lg text-center">
                     <h1 className="text-3xl text-center font-bold mb-6 md:mb-20 text-slate-500">Contact with Us</h1>
 
-                    <div className="flex justify-around items-center">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                         {contactMethods.map((method, index) => (
                             <div
                                 key={index}
