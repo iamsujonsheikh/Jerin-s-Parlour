@@ -8,7 +8,7 @@ import logo from "/public/assets/logo.png";
 import links from '@/app/lib/NavLinks';
 import { usePathname } from 'next/navigation';
 import clsx from 'clsx';
-import MaxWidthWrapper from '@/app/lib/MaxWidthWrapper';
+import MaxWidthWrapper from '../../lib/MaxWidthWrapper';
 import Pinkbtn from '../Pinkbtn';
 
 
@@ -21,7 +21,7 @@ const NavBar = () => {
     };
 
     return (
-        <nav className="bg-gray-100 w-full p-4">
+        <nav className="bg-slate-100 w-full py-5 md:py-6">
             <MaxWidthWrapper>
                 <div className="container mx-auto flex justify-between items-center">
                     <Link href="/" className="text-white font-bold text-xl">
@@ -30,7 +30,6 @@ const NavBar = () => {
                             width={100}
                             height={100}
                             alt='logo image'
-                            className='animate-pulse'
                         />
                     </Link>
 
@@ -38,16 +37,17 @@ const NavBar = () => {
                         {links.map((link) => (
                             <Link key={link.name} href={link.href}
                                 className={clsx(
-                                    'rounded-md font-medium hover:bg-slate-200 duration-500 hover:text-blue-500 md:flex-none md:justify-start md:p-2 md:px-3',
+                                    "rounded-md font-medium hover:bg-pink-100 duration-300 hover:text-pink-500 md:flex-none md:justify-start md:p-2 md:px-3",
                                     {
-                                        'bg-sky-100 text-blue-600': pathname === link.href,
+                                        'bg-pink-200 text-pink-500': pathname === link.href,
                                     },
                                 )}
                             >
-                                <p className='text-lg text-slate-500'>{link.name}</p>
+                                <p className='text-lg text-slate-600'>{link.name}</p>
                             </Link>
                         ))}
-                        <Link href="/login" className='px-4 py-2 rounded bg-pink-500 text-medium text-slate-100 font-semibold'>Login</Link>
+
+                        <Pinkbtn label='Login' href='/login' />
                     </div>
 
                     <div className="sm:hidden">
@@ -63,11 +63,13 @@ const NavBar = () => {
                         <div className="w-full h-full absolute top-16 text-xl font-semibold px-20 bg-white p-2 space-y-2 right-2">
                             {links.map((link) => (
                                 <Link key={link.name} href={link.href}>
-                                    <p className='text-lg text-center border-b-2 py-2 hover:bg-blue-100 rounded'>{link.name}</p>
+                                    <p className='text-lg text-slate-500 text-center border-b-2 py-2 rounded hover:bg-pink-100 duration-300 hover:text-pink-500'>{link.name}</p>
                                 </Link>
                             ))}
 
-                            <Pinkbtn label="Login" href="/login" />
+                            <div className='flex justify-center items-center'>
+                                <Pinkbtn label="Login" href="/login" />
+                            </div>
                         </div>
                     )}
                 </div>

@@ -3,6 +3,7 @@ import Image from 'next/image';
 import staticServices from '../../lib/StaticServices';
 import Pinkbtn from '../Pinkbtn';
 
+
 const Services = () => {
     return (
         <main className='bg-white py-20'>

@@ -1,5 +1,6 @@
 import { User } from "@nextui-org/react";
 import AdminDashBoardSideNav from "../../components/adminDashBoard/AdminDashBoardSideNav";
+import BreadCrumbs from "@/app/components/Breadcrumbs";
 
 
 const AdminDashBoardLayout = ({ children }) => {
@@ -14,7 +15,7 @@ const AdminDashBoardLayout = ({ children }) => {
                 <div className="hidden md:block">
                     <div className="w-full h-16 bg-pink-50 rounded flex justify-between items-center px-4">
                         <div>
-                            <h1 className="txt-xl font-semibold text-slate-500">Book</h1>
+                            <BreadCrumbs />
                         </div>
 
                         <div>

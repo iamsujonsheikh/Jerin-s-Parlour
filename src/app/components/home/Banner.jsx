@@ -6,9 +6,9 @@ import Pinkbtn from '../Pinkbtn';
 
 const Banner = () => {
     return (
-        <main className='w-full'>
+        <main className='w-full py-4 md:py-20'>
             <MaxWidthWrapper>
-                <div className='md:flex px-2 justify-around my-4 md:my-32 items-center bg-slate-100 space-y-2'>
+                <div className='md:flex px-2 justify-around py-10 items-center bg-slate-100 space-y-2'>
                     <div className='space-y-4'>
                         <h1 className='text-3xl md:text-5xl font-bold md:leading-tight'>
                             BEAUTY SALON <br />
@@ -31,7 +31,7 @@ const Banner = () => {
                     </div>
                 </div>
             </MaxWidthWrapper>
-        </main>
+        </main >
     )
 }
 

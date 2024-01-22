@@ -1,4 +1,3 @@
-import NavBar from '../../components/shared/Navbar';
 import Link from 'next/link'
 import { FcGoogle } from "react-icons/fc";
 import { FaFacebook } from "react-icons/fa";
@@ -7,7 +6,6 @@ import Pinkbtn from '../../components/Pinkbtn';
 const Login = () => {
     return (
         <main>
-            <NavBar />
             <div className="min-h-screen flex items-center justify-center">
                 <div className="bg-white p-8 rounded-lg shadow-xl w-96">
                     <h2 className="text-3xl font-bold mb-6 text-slate-700">Login</h2>

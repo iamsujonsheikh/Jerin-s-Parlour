@@ -1,7 +1,7 @@
 import MaxWidthWrapper from '../../lib/MaxWidthWrapper';
 import testmonialUsers from '../../lib/TestmonialUser';
 import Image from 'next/image'
-import React from 'react'
+
 
 const Testimonials = () => {
     return (

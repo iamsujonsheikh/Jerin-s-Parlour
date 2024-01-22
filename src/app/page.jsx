@@ -10,13 +10,11 @@ import Footer from './components/shared/Footer'
 const Home = () => {
     return (
         <main className='bg-slate-100'>
-            <NavBar />
             <Banner />
             <Services />
             <Profession />
             <Testimonials />
             <Message />
-            <Footer />
         </main >
     )
 }

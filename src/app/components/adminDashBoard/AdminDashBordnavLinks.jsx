@@ -32,7 +32,7 @@ const AdminDashBordnavLinks = () => {
                         key={link.name}
                         href={link.href}
                         className={clsx(
-                            'flex h-[48px] grow items-center justify-center gap-2 rounded-md bg-gray-50 p-3 text-sm font-medium hover:bg-pink-100 hover:text-pink-500 md:flex-none md:justify-start md:p-2 md:px-3 duration-300',
+                            'flex h-[48px] grow items-center justify-center gap-2 rounded-md bg-gray-50 p-3 text-medium font-medium text-slate-600 hover:bg-pink-100 hover:text-pink-500 md:flex-none md:justify-start md:p-2 md:px-3 duration-300',
                             {
                                 'bg-pink-100 text-pink-500': pathname === link.href,
                             },

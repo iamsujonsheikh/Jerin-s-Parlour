@@ -24,7 +24,7 @@ const DashBoardSideNav = () => {
                 <div className="hidden h-auto w-full grow rounded-md bg-gray-50 md:block"></div>
 
                 <form>
-                    <button className="flex h-[48px] w-full grow items-center justify-center gap-2 rounded-md bg-gray-50 p-3 text-sm font-medium hover:bg-pink-100 hover:text-pink-500 md:flex-none md:justify-start md:p-2 md:px-3">
+                    <button className="flex h-[48px] w-full grow items-center justify-center gap-2 rounded-md bg-gray-50 p-3 text-medium font-medium text-slate-600 hover:bg-pink-100 hover:text-pink-500 md:flex-none md:justify-start md:p-2 md:px-3">
                         <IoPowerOutline className="w-6 h-6" />
                         <div className="hidden md:block">Sign Out</div>
                     </button>

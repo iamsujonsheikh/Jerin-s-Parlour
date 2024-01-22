@@ -1,5 +1,3 @@
-import Footer from '../../components/shared/Footer';
-import NavBar from '../../components/shared/Navbar';
 import MaxWidthWrapper from '../../lib/MaxWidthWrapper';
 import { MdOutlineMarkEmailRead, MdLocationCity } from 'react-icons/md';
 import { FaPhoneVolume } from 'react-icons/fa6';
@@ -24,8 +22,7 @@ const ContactUs = () => {
     ];
 
     return (
-        <main className="bg-pink-50">
-            <NavBar />
+        <main>
             <MaxWidthWrapper>
                 <div className="container mx-auto my-10 p-8 bg-white shadow rounded-lg text-center">
                     <h1 className="text-3xl text-center font-bold mb-6 md:mb-20 text-slate-500">Contact with Us</h1>
@@ -49,7 +46,6 @@ const ContactUs = () => {
                     </div>
                 </div>
             </MaxWidthWrapper>
-            <Footer />
         </main>
     );
 };
